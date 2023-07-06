@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -14,9 +18,13 @@ a {
     display: block;
 }
 
+
+/* ========================== Header =========================== */
+
 .container-header {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 
@@ -151,12 +159,19 @@ a {
     cursor: pointer;
 }
 
+/* ========================== Cards =========================== */
+
 .cards-section {
     padding: 0px 0px;
 }
 
 .container-cards {
-    max-width: 1300px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row-cards {
+    margin: 0;
 }
 
 .cards-img {
@@ -166,7 +181,7 @@ a {
     height: auto;
 }
 
-.row-cards > .col-4 {
+.row-cards > .col-mg {
     padding: 20px;
 }
 
@@ -252,6 +267,7 @@ a {
     padding: 0px 6px;
 }
 
+/* ========================== About Restoraunt =========================== */
 
 .about-rest-section {
     padding: 50px 0px 300px;
@@ -332,6 +348,8 @@ a {
     border-radius: 99em;
     cursor: pointer;
 }
+
+/* ========================== Restourant's descr =========================== */
 
 .descr-section {
     padding: 250px 0px 30px;
