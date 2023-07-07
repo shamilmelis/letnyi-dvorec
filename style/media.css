@@ -2,6 +2,7 @@
     .inner-box .corpotative-text {
         font-size: 20px;
     }
+
     .inner-box .corpotative-descr {
         font-size: 9px;
     }
@@ -11,18 +12,23 @@
     .container_blocks .container-links {
         display: none;
     }
+
     .container-burger {
         width: auto;
     }
+
     .container-links .nav-link {
         margin: 20px 0px 0px;
     }
-   .container-links .nav-link-home {
+
+    .container-links .nav-link-home {
         margin: 20px 0px 0px;
     }
+
     .container-links .nav-link-active {
         margin: 20px 0px 0px;
     }
+
     .container-header .container_blocks {
         position: fixed;
         top: 0;
@@ -33,19 +39,21 @@
         border: 2px solid gainsboro;
         z-index: 999;
     }
+
     .nav-res-text {
         font-size: 100%;
     }
+
     .container-cards {
         margin-top: 100px;
         max-width: 1400px;
         margin: 0 auto;
-        padding: 80px 0 0;
+        padding: 100px 0 0;
     }
 }
 
 @media (max-width: 900px) {
-    .row-video > .col-12 {
+    .row-video .col-12 {
         top: 20px;
     }
 }
@@ -55,7 +63,7 @@
         position: relative;
         overflow: hidden;
     }
-    
+
     .row-cards .inner-box {
         width: 100%;
         position: absolute;
@@ -64,7 +72,7 @@
         padding: 10px 8px;
         transition: 0.3s;
     }
-    
+
     .row-cards .box:hover .inner-box {
         transition: 0.3s;
         bottom: 0;
@@ -72,23 +80,70 @@
 }
 
 @media (max-width: 800px) {
-    .row-video > .col-12 {
+    .row-video .col-12 {
         top: 40px;
     }
+
     .descr-section {
-        padding: 200px 0 30px;     
+        padding: 200px 0 30px;
     }
+
     .about-rest-section {
         padding: 50px 0 280px;
     }
 }
 
 @media (max-width: 768px) {
-    .row-descr > .col-6 .box-info {
+    .row-descr .col-6 .box-info {
         padding: 0px;
     }
+
     .descr-section {
-        padding: 180px 0 30px;     
+        padding: 180px 0 30px;
+    }
+
+    .container-about .do-you-want__text {
+        font-size: 24px
+    }
+
+    .row-contacts .col-pd {
+        padding: 20px 0;
+    }
+
+    .container-outro .our-inst_text {
+        font-size: 24px;
+    }
+
+    .row-copyright .col-pd .box-info {
+        justify-content: flex-start;
+    }
+
+    .row-copyright .col-pd .box .copyright_text {
+        font-size: 11px;
+    }
+
+    .row-copyright .col-pd .box-info .footer-link {
+        font-size: 11px;
+    }
+
+    .footer-link:nth-child(2)::after {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 60px;
+        width: 22%;
+        height: 0.6px;
+        background: #000;
+    }
+
+    .footer-link:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: -17px;
+        width: 22%;
+        height: 0.6px;
+        background: #000;
     }
 }
 
@@ -96,38 +151,59 @@
     .inner-box .corpotative-text {
         font-size: 15px;
     }
+
     .inner-box .corpotative-descr {
         font-size: 7px;
     }
+
     .about-rest_text {
         font-size: 20px;
     }
+
     .about-rest_descr {
         font-size: 8px;
     }
+
     .video-btn {
         width: 45px;
         height: 45px;
         font-size: 13px;
     }
+
+    .container-download .inner-download .inner-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .inner-download .inner-box a button {
+        padding: 9px 26px;
+    }
+
+    .container-download .inner-download .know-about-us__text {
+        font-size: 24px
+    }
 }
 
 @media (max-width: 750px) {
-    .row-video > .col-12 {
+    .row-video .col-12 {
         top: 60px;
     }
+
     .descr-section {
-        padding: 150px 0 30px;     
+        padding: 150px 0 30px;
     }
 }
 
 @media (max-width: 650px) {
-    .row-video > .col-12 {
+    .row-video .col-12 {
         top: 0px;
     }
+
     .descr-section {
-        padding: 170px 0 30px;     
+        padding: 170px 0 30px;
     }
+
     .about-rest-section {
         padding: 50px 0 150px;
     }
@@ -139,12 +215,18 @@
         height: 35px;
         font-size: 12px;
     }
+
     .container_blocks .container-logo {
         max-width: 70px;
     }
-    .row-small-cards > .col-6 {
+
+    .row-small-cards>.col-6 {
         width: 100%;
         padding: 0;
+    }
+
+    .container-cards {
+        padding: 80px 0 0;
     }
 }
 
@@ -152,16 +234,18 @@
     .container-cards .row .col-4 {
         width: 100%;
     }
-    .row-descr > .col-6 {
+
+    .row-descr>.col-6 {
         width: 100%;
-    } 
+    }
+
     .descr-section {
-        padding: 170px 0 30px;     
+        padding: 170px 0 30px;
     }
 }
 
 @media (max-width: 500px) {
     .descr-section {
-        padding: 100px 0 30px;     
+        padding: 100px 0 30px;
     }
 }
