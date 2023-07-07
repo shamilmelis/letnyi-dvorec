@@ -361,6 +361,10 @@ a {
     background: rgb(249,247,247);
 }
 
+.descr-section .row {
+    margin: 0;
+}
+
 .row-descr {
     margin: 0 -15px;
 }
